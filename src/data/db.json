@@ -1,0 +1,158 @@
+{
+    "bookings": [
+      {
+          "id": 1,
+          "accommodationsId": 1,
+          "usersId": 1,
+          "bookingDate": "2023-10-13",
+          "startDate": "2023-10-15",
+          "endDate": "2023-10-20"
+      },
+      {
+          "id": 2,
+          "accommodationsId": 1,
+          "usersId": 1,
+          "bookingDate": "2023-10-13",
+          "startDate": "2023-11-01",
+          "endDate": "2023-11-05"
+      },
+      {
+          "id": 3,
+          "accommodationsId": 2,
+          "usersId": 1,
+          "bookingDate": "2023-10-13",
+          "startDate": "2023-10-25",
+          "endDate": "2023-10-30"
+      }
+    ],
+    "accommodations": [
+      {
+        "id": 1,
+        "image": "https://a0.muscache.com/im/pictures/4347ed02-fc72-4e0f-9e2b-8586ff957d6b.jpg",
+        "name": "Apartamento en Cartagena",
+        "rating": 4.5,
+        "price_per_night": 100,
+        "categoryId": 1,
+        "locationId": 1,
+        "guests": {
+          "min": 1,
+          "max": 4
+        },
+        "typeId": 1,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "beds": 3,
+        "amenities": {
+          "kitchen": true,
+          "pool": false,
+          "gym": false,
+          "internet_access": true,
+          "garden": true,
+          "laundry": true,
+          "common_areas": true
+        },
+        "services": {
+          "cleaning": true,
+          "laundry": false,
+          "breakfast": true,
+          "hairdryer": true,
+          "iron": true
+        },
+        "description": "Descripción del alojamiento 1"
+      },
+      {
+        "id": 2,
+        "image": "https://cabanas-fogon-de-palo.hotelesejecafetero.net/data/Images/OriginalPhoto/11752/1175282/1175282895/image-manizales-cabanas-fogon-de-palo-1.JPEG",
+        "name": "Habitación Cabaña",
+        "rating": 4.8,
+        "price_per_night": 120,
+        "categoryId": 3,
+        "locationId": 2,
+        "guests": {
+          "min": 2,
+          "max": 6
+        },
+        "typeId": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "beds": 1,
+        "amenities": {
+          "kitchen": false,
+          "pool": true,
+          "gym": false,
+          "internet_access": true,
+          "garden": false,
+          "laundry": false,
+          "common_areas": false
+        },
+        "services": {
+          "cleaning": true,
+          "laundry": false,
+          "breakfast": false,
+          "hairdryer": true,
+          "iron": false
+        },
+        "description": "Descripción del alojamiento 2"
+      }
+    ],
+    "reviews": [],
+    "category": [
+      {
+        "id": 1,
+        "name": "playa"
+      },
+      {
+        "id": 2,
+        "name": "camping"
+      },
+      {
+        "id": 3,
+        "name": "montaña"
+      }
+    ],
+    "type":[
+      {
+        "id": 1,
+        "name": "lugar entero"
+      },
+      {
+        "id": 2,
+        "name": "habitación privada"
+      },
+      {
+        "id": 3,
+        "name": "dormitorio compartido"
+      }
+    ],
+    "location":[
+      {
+          "id":1,
+          "country": "Colombia",
+          "city": "Cartagena"
+      },
+      {
+          "id":2,
+          "country": "Colombia",
+          "city": "Medellín"
+      },
+      {
+          "id":3,
+          "country": "Colombia",
+          "city": "Bogotá"
+      },
+      {
+          "id":4,
+          "country": "Colombia",
+          "city": "Santa Marta"
+      }
+    ],
+    "users": [
+      {
+          "id":1,
+          "name": "Zamir flores",
+          "email": "zamir@gmail.com",
+          "password": "12345",
+          "urlImage": "https://cdn-icons-png.flaticon.com/512/3607/3607444.png"
+      }
+    ]
+  }
